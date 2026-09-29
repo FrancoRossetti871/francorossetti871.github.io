@@ -34,11 +34,13 @@ const base = import.meta.env.BASE_URL;
       </div>
     </div>
     <img
-      src={`${base}avatar.svg`}
-      alt={`Avatar con las iniciales de ${profile.name}`}
+      src={`${base}foto-franco-rossetti.webp`}
+      alt={`Foto de ${profile.name}`}
       width="224"
       height="224"
-      class="reveal h-40 w-40 shrink-0 rounded-full border-4 border-surface shadow-lg ring-2 ring-accent sm:h-56 sm:w-56"
+      fetchpriority="high"
+      decoding="async"
+      class="reveal h-40 w-40 shrink-0 rounded-full object-cover border-4 border-surface shadow-lg ring-2 ring-accent sm:h-56 sm:w-56"
     />
   </div>
 </section>

@@ -60,7 +60,7 @@ src/
 ├── components/          # Header, Hero, About, Projects, Contact, Footer
 ├── pages/index.astro    # Página principal
 └── styles/global.css    # Tailwind + paleta clara/oscura
-public/                  # Favicon, avatar y CV en PDF
+public/                  # Favicon, foto de perfil y CV en PDF
 scripts/                 # Generación del CV
 ```
 
