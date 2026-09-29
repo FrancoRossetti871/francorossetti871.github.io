@@ -1,0 +1,28 @@
+---
+import { bio, skills } from "../data/profile";
+---
+
+<section id="sobre-mi" aria-labelledby="about-title" class="border-y border-border bg-surface">
+  <div class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+    <h2 id="about-title" class="reveal text-3xl font-bold tracking-tight sm:text-4xl">Sobre mí</h2>
+    <div class="mt-8 grid gap-12 lg:grid-cols-2">
+      <div class="reveal space-y-4 text-lg leading-relaxed text-muted">
+        {bio.map((paragraph) => <p>{paragraph}</p>)}
+      </div>
+      <div class="reveal space-y-6">
+        {
+          skills.map((group) => (
+            <div>
+              <h3 class="mb-3 text-sm font-semibold tracking-wider text-text uppercase">{group.category}</h3>
+              <ul class="flex flex-wrap gap-2" aria-label={`Tecnologías de ${group.category}`}>
+                {group.items.map((item) => (
+                  <li class="rounded-full border border-border bg-bg px-3 py-1 text-sm">{item}</li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>

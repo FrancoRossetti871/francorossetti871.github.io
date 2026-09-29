@@ -1,0 +1,44 @@
+---
+import { profile } from "../data/profile";
+const base = import.meta.env.BASE_URL;
+---
+
+<section id="inicio" aria-labelledby="hero-title" class="mx-auto max-w-6xl px-4 pt-16 pb-20 sm:px-6 md:pt-24 md:pb-28">
+  <div class="flex flex-col-reverse items-center gap-10 md:flex-row md:justify-between">
+    <div class="reveal max-w-2xl text-center md:text-left">
+      <p class="mb-3 font-semibold text-accent">{profile.role}</p>
+      <h1 id="hero-title" class="text-4xl font-extrabold tracking-tight text-balance sm:text-5xl md:text-6xl">
+        Hola, soy {profile.name}
+      </h1>
+      <p class="mt-5 text-lg text-muted text-pretty sm:text-xl">{profile.tagline}</p>
+      <div class="mt-8 flex flex-wrap justify-center gap-3 md:justify-start">
+        <a
+          href="#proyectos"
+          class="rounded-lg bg-accent px-5 py-3 font-semibold text-on-accent shadow-sm transition-colors hover:bg-accent-hover"
+        >
+          Ver proyectos
+        </a>
+        <a
+          href="#contacto"
+          class="rounded-lg border border-border px-5 py-3 font-semibold transition-colors hover:border-accent hover:text-accent"
+        >
+          Contactarme
+        </a>
+        <a
+          href={`${base}${profile.cv}`}
+          download
+          class="rounded-lg px-5 py-3 font-semibold text-muted underline-offset-4 transition-colors hover:text-accent hover:underline"
+        >
+          Descargar CV (PDF)
+        </a>
+      </div>
+    </div>
+    <img
+      src={`${base}avatar.svg`}
+      alt={`Avatar con las iniciales de ${profile.name}`}
+      width="224"
+      height="224"
+      class="reveal h-40 w-40 shrink-0 rounded-full border-4 border-surface shadow-lg ring-2 ring-accent sm:h-56 sm:w-56"
+    />
+  </div>
+</section>
