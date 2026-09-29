@@ -2,7 +2,8 @@
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 
-// Para GitHub Pages el sitio vive en /<nombre-del-repo>/.
+// En GitHub Pages de proyecto el sitio vive en /<nombre-del-repo>/; en el repo
+// <usuario>.github.io (sitio de usuario) vive en la raíz "/".
 // En otros hosts (Vercel, Netlify) se puede dejar BASE_PATH vacío.
 const base = process.env.BASE_PATH ?? "/";
 

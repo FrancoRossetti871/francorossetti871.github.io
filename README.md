@@ -2,7 +2,7 @@
 
 Portfolio personal para presentarme como **Desarrollador Full Stack**: quién soy, qué tecnologías manejo, mis proyectos y cómo contactarme.
 
-🌐 **Sitio publicado:** https://francorossetti871.github.io/Trabajo-Pr-ctico-N-1-Portfolio/
+🌐 **Sitio publicado:** https://francorossetti871.github.io/
 
 ## Stack
 
@@ -35,8 +35,8 @@ Portfolio personal para presentarme como **Desarrollador Full Stack**: quién so
 Requisitos: **Node.js 20 o superior** y npm.
 
 ```bash
-git clone https://github.com/FrancoRossetti871/Trabajo-Pr-ctico-N-1-Portfolio.git
-cd Trabajo-Pr-ctico-N-1-Portfolio
+git clone https://github.com/FrancoRossetti871/francorossetti871.github.io.git
+cd francorossetti871.github.io
 npm install
 npm run dev
 ```

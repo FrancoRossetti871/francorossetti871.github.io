@@ -66,7 +66,7 @@ export const projects: Project[] = [
     description:
       "Sitio personal estático, accesible y responsive, con modo claro/oscuro, animaciones que respetan prefers-reduced-motion, formulario con validación y deploy automático con GitHub Actions.",
     tech: ["Astro", "Tailwind CSS", "TypeScript", "GitHub Pages"],
-    repo: "https://github.com/FrancoRossetti871/Trabajo-Pr-ctico-N-1-Portfolio",
-    demo: "https://francorossetti871.github.io/Trabajo-Pr-ctico-N-1-Portfolio/",
+    repo: "https://github.com/FrancoRossetti871/francorossetti871.github.io",
+    demo: "https://francorossetti871.github.io/",
   },
 ];
