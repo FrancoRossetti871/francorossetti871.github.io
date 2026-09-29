@@ -19,7 +19,7 @@ Portfolio personal para presentarme como **Desarrollador Full Stack**: quién so
 - **Hero:** nombre, rol, frase de presentación, botones "Ver proyectos", "Contactarme" y descarga del CV.
 - **Sobre mí:** biografía breve y habilidades agrupadas en Frontend, Backend y Herramientas.
 - **Proyectos:** 4 proyectos reales con descripción, tecnologías y link al repositorio/demo.
-- **Contacto:** email, GitHub, LinkedIn y formulario con validación de campos.
+- **Contacto:** email, GitHub y formulario con validación de campos.
 - **Navbar** fija con menú hamburguesa en mobile.
 
 ## Extras

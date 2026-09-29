@@ -8,7 +8,6 @@ const year = new Date().getFullYear();
     <p>© {year} {profile.name}. Hecho con Astro y Tailwind CSS.</p>
     <ul class="flex gap-5">
       <li><a href={profile.github} target="_blank" rel="noopener noreferrer" class="hover:text-accent">GitHub</a></li>
-      <li><a href={profile.linkedin} target="_blank" rel="noopener noreferrer" class="hover:text-accent">LinkedIn</a></li>
       <li><a href={`mailto:${profile.email}`} class="hover:text-accent">Email</a></li>
     </ul>
   </div>

@@ -8,8 +8,6 @@ export const profile = {
     "Construyo aplicaciones web de punta a punta: interfaces claras en el frontend y APIs y bases de datos que las sostienen.",
   email: "franrossetticolon@icloud.com",
   github: "https://github.com/FrancoRossetti871",
-  // TODO: reemplazar por la URL real de tu perfil de LinkedIn.
-  linkedin: "https://www.linkedin.com/in/franco-rossetti-871/",
   cv: "cv-franco-rossetti.pdf",
 };
 
